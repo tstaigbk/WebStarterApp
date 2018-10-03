@@ -1,0 +1,12 @@
+/platforms
+/plugins
+/bower_components
+/node_modules
+/lessdebug
+/www/lib
+/www/css
+/www/js
+/www/pages
+/www/index.html
+package-lock.json
+.vscode

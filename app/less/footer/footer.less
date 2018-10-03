@@ -1,0 +1,27 @@
+.footer {
+    background-color: @footer-background-color;
+    color: @footer-text-color;
+    font-size: @default-font-size;
+    margin: 0 auto;
+    padding: 20px 0 15px;
+    position: relative;
+    &-logo {
+        width: 120px;
+        height: 66px;
+    }
+    &-left {
+        float: left;
+        margin: 2px 0 0 6px;
+    }
+    &-right {
+        float: right;
+        margin-top: 70px;
+        margin-right: 15px;
+    }
+    a {
+        color: @footer-link-color;
+        &:hover {
+            color: @footer-link-color-hover;
+        }
+    }
+}
